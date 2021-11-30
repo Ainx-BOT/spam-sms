@@ -1,4 +1,5 @@
-import requests,os,sys
+import requests,os,sys,time
+from time import sleep
 b="\033[94m"
 c="\033[96m"
 g="\033[92m"
@@ -22,6 +23,7 @@ https://ainxbot-id.herokuapp.com
 def cblg():
     lg=input(f"{pr}Coba lagi? ({d}{c}y{d}/{c}n{p}) : {c}")
     if lg == "y" or lg == "Y":
+       sleep(10)
        os.system("python run.py")
     elif lg == "n" or lg == "N":
        sys.exit(f"{er}Bye bro jangan lupa kasih bintang github saya:)")
