@@ -1,4 +1,4 @@
-import requests,json,os,sys
+import requests,os,sys
 b="\033[94m"
 c="\033[96m"
 g="\033[92m"
