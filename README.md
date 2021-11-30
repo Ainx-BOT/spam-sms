@@ -17,5 +17,10 @@ $cd spam-sms
 
 $python run.py
 
+# api
+https://ainxbot-sms.herokuapp.com/api/spamsms
+method : get
+Parameters : phone < isi nomor hp lu tanpa 0/62
+
 # source code apinya tinggal deploy
 https://github.com/Ainx-BOT/flask-api-spamsms
