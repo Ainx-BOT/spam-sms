@@ -1,5 +1,4 @@
-import requests,json,os,sys,time
-from time import sleep
+import requests,json,os,sys
 b="\033[94m"
 c="\033[96m"
 g="\033[92m"
